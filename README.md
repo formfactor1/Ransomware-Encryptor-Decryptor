@@ -1,7 +1,6 @@
 # Ransomware-Encryptor-Decryptor
 Powershell Ransomware
-###These scripts are provided as-is. Nathan Studebaker is not responsible for the use of these scripts. These scripts are created for 
-demonstration purposes only and should not be used in a production environment. I provide no support or liablity for the use of these scripts.###
+###These scripts are provided as-is. Nathan Studebaker is not responsible for the use of these scripts. These scripts are created for demonstration purposes only and should not be used in a production environment. I provide no support or liablity for the use of these scripts.###
 
 #Summary
 The purpose of the Powershell scripts are to provide a thorough test of any anti-ransomware defense system. When it comes to testing anti-ransomware solutions, there really is no substitute for using actual ransomware. But you also need the ability to control the attack and recover from it. Closed source and actual ransomware simply don’t provide the control or recovery capabilities. That is why I created this Powershell combo; it allows an admin to safely test their network defenses against an actual ransomware attack. And unlike other ransomware, you can decrypt your files after the attack. 
