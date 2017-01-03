@@ -9,5 +9,5 @@ The purpose of the Powershell scripts are to provide a thorough test of any anti
 The encryptor, will encrypt files on a network share using a public key. It attacks network files only, and attacks the lowest drive letter first, which gives you control over what files are encrypted. The script also makes a copy of every file before it encrypts them, providing another safety net. Because it uses file-streams from .Net, it overwrites the original file as opposed to deleting it, which is also seen in actual ransomware attacks.
 #Decryptor
 The decryptor, decrypts files using the private key of the public certificate. It too uses .net filestream for the read/write operations.
-Both scripts are capable of encrypting over 100GB of data per hour and should provide a great platform for testing your defenses.
+Both scripts are capable of encrypting/decrypting over 100GB of data per hour and should provide a great platform for testing your defenses.
 
